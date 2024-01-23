@@ -49,7 +49,6 @@ class Greenhouse:
         try:
             response = requests.get(GREENHOUSE_IP)
             res = response.json()
-            print(res)
             temp = res['temp']
             hum = res['humidity']
 

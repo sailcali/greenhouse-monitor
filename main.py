@@ -1,3 +1,5 @@
+#!/usr/bin/greenhouse-monitor/venv/bin/python3
+
 from classes import Greenhouse, Heater
 import time
 from dotenv import load_dotenv

@@ -10,8 +10,6 @@ DB_PASS = os.environ.get("DB_PASS")
 DB_NAME = os.environ.get("DB_NAME")
 DB_HOST = os.environ.get("DB_HOST")
 
-print(DB_HOST)
-
 conn = psycopg2.connect(
     host=DB_HOST,
     database=DB_NAME,
