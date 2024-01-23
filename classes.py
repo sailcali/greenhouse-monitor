@@ -36,8 +36,8 @@ class Heater:
     
 class Greenhouse:
     def __init__(self):
-        self.temps = []
-        self.hums = []
+        self.temps = [65]
+        self.hums = [65]
 
     def avg_temp(self):
         return sum(self.temps) / len(self.temps)
